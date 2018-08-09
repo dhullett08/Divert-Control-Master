@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.12">
+  <GVL Name="GVL_DUA" Id="{964d5aa3-6374-4cdb-97c1-b235e9795180}">
+    <Declaration><![CDATA[VAR_GLOBAL
+	DAU : ARRAY [1..100] OF DAU; //Instantiate 100 DAU's  This can be made higher if we think that 1 system will ever have more than 100 DAU's
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

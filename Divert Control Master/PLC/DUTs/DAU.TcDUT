@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.12">
+  <DUT Name="DAU" Id="{f4de7d40-3584-4761-a7e9-3df452a4f3b0}">
+    <Declaration><![CDATA[TYPE DAU :
+STRUCT
+	//Divert 1 IO //
+	bDivert1Extend : BOOL; //Extend Signal to Solenoid
+	bDivert1Retract : BOOL; //Retract Signal to Solenoid
+	bDivert1Faulted : BOOL; //Faulted Status to Line Controller
+	bDivert1MissingPin : BOOL; //Missing Pin input from shoe sensor
+	bDivert1SWSensor : BOOL; //SW Sensor from shoe sensor
+	bDivert1GO : BOOL;  // Divert signal from Line Controller
+	//Divert 2 IO //
+	bDivert2Extend : BOOL;
+	bDivert2Retract : BOOL;
+	bDivert2Faulted : BOOL; //Faulted Status to Line Controller
+	bDivert2MissingPin : BOOL; //Missing Pin input from shoe sensor
+	bDivert2SWSensor : BOOL; //SW Sensor from shoe sensor
+	bDivert2GO : BOOL;  // Divert signal from Line Controller
+	//END
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

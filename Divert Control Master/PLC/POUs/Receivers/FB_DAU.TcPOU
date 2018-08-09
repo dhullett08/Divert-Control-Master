@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.12">
+  <POU Name="FB_DAU" Id="{0e4ffa83-66cd-4bfb-a73f-6fc328aada0e}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_DAU
+VAR_INPUT
+END_VAR
+VAR_OUTPUT
+END_VAR
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <Method Name="Extend" Id="{b84f61ca-729e-4fb1-b7e2-5667780a4e2f}">
+      <Declaration><![CDATA[METHOD PUBLIC Extend : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="Init" Id="{c45dd152-7d6f-479c-963b-f1ff968fa19e}">
+      <Declaration><![CDATA[METHOD PUBLIC Init : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="Retract" Id="{b8935e9a-1ffa-4a5f-a896-3267af0042e8}">
+      <Declaration><![CDATA[METHOD PUBLIC Retract : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <Method Name="TrigFault" Id="{07393e28-54b7-48bc-9e2f-36ab96618aaa}">
+      <Declaration><![CDATA[METHOD PUBLIC TrigFault : BOOL
+VAR_INPUT
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <LineIds Name="FB_DAU">
+      <LineId Id="9" Count="0" />
+    </LineIds>
+    <LineIds Name="FB_DAU.Extend">
+      <LineId Id="5" Count="0" />
+    </LineIds>
+    <LineIds Name="FB_DAU.Init">
+      <LineId Id="5" Count="0" />
+    </LineIds>
+    <LineIds Name="FB_DAU.Retract">
+      <LineId Id="5" Count="0" />
+    </LineIds>
+    <LineIds Name="FB_DAU.TrigFault">
+      <LineId Id="5" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

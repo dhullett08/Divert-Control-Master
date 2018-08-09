@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.12">
+  <POU Name="FB_CtrlgxParser" Id="{dd46f8b2-f737-4b53-be6c-229c4eef03e8}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_CtrlgxParser
+VAR_INPUT
+END_VAR
+VAR_OUTPUT
+END_VAR
+VAR
+END_VAR
+xdfsdfsd]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <LineIds Name="FB_CtrlgxParser">
+      <LineId Id="9" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
